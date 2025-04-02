@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/staff/staff.routes.ts"],
+  "sourcesContent": ["import { Routes } from '@angular/router';\r\n\r\nexport const STAFF_ROUTES: Routes = [\r\n  {\r\n    path: '',\r\n    loadComponent: () => import('./staff-list/staff-list.component').then(c => c.StaffListComponent)\r\n  },\r\n  {\r\n    path: 'new',\r\n    loadComponent: () => import('./staff-form/staff-form.component').then(c => c.StaffFormComponent)\r\n  },\r\n  {\r\n    path: ':id',\r\n    loadComponent: () => import('./staff-detail/staff-detail.component').then(c => c.StaffDetailComponent)\r\n  },\r\n  {\r\n    path: ':id/edit',\r\n    loadComponent: () => import('./staff-form/staff-form.component').then(c => c.StaffFormComponent)\r\n  }\r\n]; "],
+  "mappings": ";;;AAEO,IAAM,eAAuB;EAClC;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAAmC,EAAE,KAAK,OAAK,EAAE,kBAAkB;;EAEjG;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAAmC,EAAE,KAAK,OAAK,EAAE,kBAAkB;;EAEjG;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAAuC,EAAE,KAAK,OAAK,EAAE,oBAAoB;;EAEvG;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAAmC,EAAE,KAAK,OAAK,EAAE,kBAAkB;;;",
+  "names": []
+}

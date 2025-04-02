@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/reservations/reservations.routes.ts"],
+  "sourcesContent": ["import { Routes } from '@angular/router';\r\n\r\nexport const RESERVATIONS_ROUTES: Routes = [\r\n  {\r\n    path: '',\r\n    loadComponent: () => import('./reservation-list/reservation-list.component').then(c => c.ReservationListComponent)\r\n  },\r\n  {\r\n    path: 'new',\r\n    loadComponent: () => import('./reservation-form/reservation-form.component').then(c => c.ReservationFormComponent)\r\n  },\r\n  {\r\n    path: ':id',\r\n    loadComponent: () => import('./reservation-detail/reservation-detail.component').then(c => c.ReservationDetailComponent)\r\n  },\r\n  {\r\n    path: ':id/edit',\r\n    loadComponent: () => import('./reservation-form/reservation-form.component').then(c => c.ReservationFormComponent)\r\n  }\r\n]; "],
+  "mappings": ";;;AAEO,IAAM,sBAA8B;EACzC;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAA+C,EAAE,KAAK,OAAK,EAAE,wBAAwB;;EAEnH;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAA+C,EAAE,KAAK,OAAK,EAAE,wBAAwB;;EAEnH;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAAmD,EAAE,KAAK,OAAK,EAAE,0BAA0B;;EAEzH;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAA+C,EAAE,KAAK,OAAK,EAAE,wBAAwB;;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["invoice-list.component.ts"],
+  "sourcesContent": ["\n    .container {\n      padding: 20px;\n    }\n    .header {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 20px;\n    }\n    .search-field {\n      width: 100%;\n      margin-bottom: 20px;\n    }\n    .table-container {\n      position: relative;\n      min-height: 400px;\n      overflow: auto;\n    }\n    table {\n      width: 100%;\n    }\n    .clickable-row {\n      cursor: pointer;\n    }\n    .clickable-row:hover {\n      background-color: rgba(0, 0, 0, 0.04);\n    }\n    .status-paid {\n      color: green;\n      font-weight: bold;\n    }\n    .status-unpaid {\n      color: red;\n      font-weight: bold;\n    }\n    .status-partially-paid {\n      color: orange;\n      font-weight: bold;\n    }\n  "],
+  "mappings": ";AACI,CAAA;AACE,WAAA;;AAEF,CAAA;AACE,WAAA;AACA,mBAAA;AACA,eAAA;AACA,iBAAA;;AAEF,CAAA;AACE,SAAA;AACA,iBAAA;;AAEF,CAAA;AACE,YAAA;AACA,cAAA;AACA,YAAA;;AAEF;AACE,SAAA;;AAEF,CAAA;AACE,UAAA;;AAEF,CAHA,aAGA;AACE,oBAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA;;AAEF,CAAA;AACE,SAAA;AACA,eAAA;;AAEF,CAAA;AACE,SAAA;AACA,eAAA;;AAEF,CAAA;AACE,SAAA;AACA,eAAA;;",
+  "names": []
+}

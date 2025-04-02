@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/inventory/inventory-list/inventory-list.component.ts"],
+  "sourcesContent": ["import { Component } from '@angular/core';\r\nimport { CommonModule } from '@angular/common';\r\nimport { RouterModule } from '@angular/router';\r\n\r\n@Component({\r\n  selector: 'app-inventory-list',\r\n  standalone: true,\r\n  imports: [CommonModule, RouterModule],\r\n  template: `<p>Inventory list works!</p>`,\r\n  styles: []\r\n})\r\nexport class InventoryListComponent {} "],
+  "mappings": ";;;;;;;;;;;;;AAWM,IAAO,yBAAP,MAAO,wBAAsB;;;uBAAtB,yBAAsB;IAAA;EAAA;;yEAAtB,yBAAsB,WAAA,CAAA,CAAA,oBAAA,CAAA,GAAA,YAAA,MAAA,UAAA,CAAA,6BAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,gCAAA,IAAA,KAAA;AAAA,UAAA,KAAA,GAAA;AAHtB,QAAA,yBAAA,GAAA,GAAA;AAAG,QAAA,iBAAA,GAAA,uBAAA;AAAqB,QAAA,uBAAA;;sBADzB,cAAc,YAAY,GAAA,eAAA,EAAA,CAAA;EAAA;;;6EAIzB,wBAAsB,EAAA,WAAA,0BAAA,UAAA,8EAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}

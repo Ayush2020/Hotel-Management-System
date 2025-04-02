@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/rooms/rooms.routes.ts"],
+  "sourcesContent": ["import { Routes } from '@angular/router';\r\n\r\nexport const ROOMS_ROUTES: Routes = [\r\n  {\r\n    path: '',\r\n    loadComponent: () => import('./room-list/room-list.component').then(c => c.RoomListComponent)\r\n  },\r\n  {\r\n    path: 'new',\r\n    loadComponent: () => import('./room-form/room-form.component').then(c => c.RoomFormComponent)\r\n  },\r\n  {\r\n    path: ':id',\r\n    loadComponent: () => import('./room-detail/room-detail.component').then(c => c.RoomDetailComponent)\r\n  },\r\n  {\r\n    path: ':id/edit',\r\n    loadComponent: () => import('./room-form/room-form.component').then(c => c.RoomFormComponent)\r\n  }\r\n]; "],
+  "mappings": ";;;AAEO,IAAM,eAAuB;EAClC;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAAiC,EAAE,KAAK,OAAK,EAAE,iBAAiB;;EAE9F;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAAiC,EAAE,KAAK,OAAK,EAAE,iBAAiB;;EAE9F;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAAqC,EAAE,KAAK,OAAK,EAAE,mBAAmB;;EAEpG;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAAiC,EAAE,KAAK,OAAK,EAAE,iBAAiB;;;",
+  "names": []
+}

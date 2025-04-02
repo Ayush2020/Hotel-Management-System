@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["sidebar.component.ts"],
+  "sourcesContent": ["\n    .sidebar-container {\n      height: 100%;\n      background-color: #fff;\n      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);\n    }\n    \n    .sidebar-header {\n      padding: 16px;\n      border-bottom: 1px solid #eee;\n    }\n    \n    .mat-h2 {\n      margin: 0;\n      font-size: 18px;\n      font-weight: 500;\n    }\n    \n    .active-link {\n      background-color: rgba(0, 0, 0, 0.05);\n      color: #3f51b5;\n      font-weight: 500;\n    }\n  "],
+  "mappings": ";AACI,CAAA;AACE,UAAA;AACA,oBAAA;AACA,cAAA,EAAA,IAAA,KAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA;;AAGF,CAAA;AACE,WAAA;AACA,iBAAA,IAAA,MAAA;;AAGF,CAAA;AACE,UAAA;AACA,aAAA;AACA,eAAA;;AAGF,CAAA;AACE,oBAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA;AACA,SAAA;AACA,eAAA;;",
+  "names": []
+}

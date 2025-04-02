@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["header.component.ts"],
+  "sourcesContent": ["\n    .spacer {\n      flex: 1 1 auto;\n    }\n    \n    .logo {\n      font-size: 20px;\n      font-weight: 500;\n    }\n    \n    .user-info {\n      padding: 0 16px;\n      margin-bottom: 0;\n    }\n    \n    .username {\n      font-weight: 500;\n      margin-bottom: 0;\n    }\n    \n    .user-role {\n      font-size: 12px;\n      color: #666;\n      margin-top: 0;\n    }\n  "],
+  "mappings": ";AACI,CAAA;AACE,QAAA,EAAA,EAAA;;AAGF,CAAA;AACE,aAAA;AACA,eAAA;;AAGF,CAAA;AACE,WAAA,EAAA;AACA,iBAAA;;AAGF,CAAA;AACE,eAAA;AACA,iBAAA;;AAGF,CAAA;AACE,aAAA;AACA,SAAA;AACA,cAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/staff/staff-detail/staff-detail.component.ts"],
+  "sourcesContent": ["import { Component } from '@angular/core';\r\nimport { CommonModule } from '@angular/common';\r\nimport { RouterModule } from '@angular/router';\r\n\r\n@Component({\r\n  selector: 'app-staff-detail',\r\n  standalone: true,\r\n  imports: [CommonModule, RouterModule],\r\n  template: `<p>Staff detail works!</p>`,\r\n  styles: []\r\n})\r\nexport class StaffDetailComponent {} "],
+  "mappings": ";;;;;;;;;;;;;AAWM,IAAO,uBAAP,MAAO,sBAAoB;;;uBAApB,uBAAoB;IAAA;EAAA;;yEAApB,uBAAoB,WAAA,CAAA,CAAA,kBAAA,CAAA,GAAA,YAAA,MAAA,UAAA,CAAA,6BAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,8BAAA,IAAA,KAAA;AAAA,UAAA,KAAA,GAAA;AAHpB,QAAA,yBAAA,GAAA,GAAA;AAAG,QAAA,iBAAA,GAAA,qBAAA;AAAmB,QAAA,uBAAA;;sBADvB,cAAc,YAAY,GAAA,eAAA,EAAA,CAAA;EAAA;;;6EAIzB,sBAAoB,EAAA,WAAA,wBAAA,UAAA,sEAAA,YAAA,GAAA,CAAA;AAAA,GAAA;",
+  "names": []
+}

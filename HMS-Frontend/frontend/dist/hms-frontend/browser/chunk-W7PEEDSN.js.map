@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/inventory/inventory.routes.ts"],
+  "sourcesContent": ["import { Routes } from '@angular/router';\r\n\r\nexport const INVENTORY_ROUTES: Routes = [\r\n  {\r\n    path: '',\r\n    loadComponent: () => import('./inventory-list/inventory-list.component').then(c => c.InventoryListComponent)\r\n  },\r\n  {\r\n    path: 'new',\r\n    loadComponent: () => import('./inventory-form/inventory-form.component').then(c => c.InventoryFormComponent)\r\n  },\r\n  {\r\n    path: ':id',\r\n    loadComponent: () => import('./inventory-detail/inventory-detail.component').then(c => c.InventoryDetailComponent)\r\n  },\r\n  {\r\n    path: ':id/edit',\r\n    loadComponent: () => import('./inventory-form/inventory-form.component').then(c => c.InventoryFormComponent)\r\n  }\r\n]; "],
+  "mappings": ";;;AAEO,IAAM,mBAA2B;EACtC;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAA2C,EAAE,KAAK,OAAK,EAAE,sBAAsB;;EAE7G;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAA2C,EAAE,KAAK,OAAK,EAAE,sBAAsB;;EAE7G;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAA+C,EAAE,KAAK,OAAK,EAAE,wBAAwB;;EAEnH;IACE,MAAM;IACN,eAAe,MAAM,OAAO,qBAA2C,EAAE,KAAK,OAAK,EAAE,sBAAsB;;;",
+  "names": []
+}

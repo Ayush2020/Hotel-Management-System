@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["confirm-dialog.component.ts"],
+  "sourcesContent": ["\n    mat-dialog-content {\n      min-width: 300px;\n    }\n  "],
+  "mappings": ";AACI;AACE,aAAA;;",
+  "names": []
+}

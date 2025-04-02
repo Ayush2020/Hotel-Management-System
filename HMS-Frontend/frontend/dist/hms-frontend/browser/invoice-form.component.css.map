@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["invoice-form.component.ts"],
+  "sourcesContent": ["\n    .container {\n      padding: 20px;\n    }\n    .header {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 20px;\n    }\n    .form-section {\n      margin-bottom: 30px;\n    }\n    .section-header {\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-bottom: 15px;\n    }\n    .row {\n      display: flex;\n      gap: 16px;\n      flex-wrap: wrap;\n    }\n    .row mat-form-field {\n      flex: 1;\n      min-width: 200px;\n    }\n    .full-width {\n      width: 100%;\n    }\n    .items-table {\n      width: 100%;\n    }\n    .mat-column-description {\n      min-width: 250px;\n    }\n    .mat-column-quantity, .mat-column-unitPrice, .mat-column-amount {\n      min-width: 150px;\n    }\n    .mat-column-actions {\n      width: 70px;\n    }\n    .actions {\n      display: flex;\n      justify-content: flex-end;\n      gap: 10px;\n      margin-top: 20px;\n    }\n  "],
+  "mappings": ";AACI,CAAA;AACE,WAAA;;AAEF,CAAA;AACE,WAAA;AACA,mBAAA;AACA,eAAA;AACA,iBAAA;;AAEF,CAAA;AACE,iBAAA;;AAEF,CAAA;AACE,WAAA;AACA,mBAAA;AACA,eAAA;AACA,iBAAA;;AAEF,CAAA;AACE,WAAA;AACA,OAAA;AACA,aAAA;;AAEF,CALA,IAKA;AACE,QAAA;AACA,aAAA;;AAEF,CAAA;AACE,SAAA;;AAEF,CAAA;AACE,SAAA;;AAEF,CAAA;AACE,aAAA;;AAEF,CAAA;AAAA,CAAA;AAAA,CAAA;AACE,aAAA;;AAEF,CAAA;AACE,SAAA;;AAEF,CAAA;AACE,WAAA;AACA,mBAAA;AACA,OAAA;AACA,cAAA;;",
+  "names": []
+}
